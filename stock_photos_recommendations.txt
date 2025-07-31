@@ -1,0 +1,66 @@
+STOCK PHOTO RECOMMENDATIONS
+==================================================
+
+TOPIC: AI in health care
+----------------------------------------
+
+1. Photo URL: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHxBSSUyMGhlYWx0aGNhcmV8ZW58MHwwfHx8MTc1Mzk2NTQyMnww&ixlib=rb-4.1.0&q=80&w=1080
+   Description: white robot near brown wall
+   Best for: Both Instagram and LinkedIn
+   Photographer: Alex Knight
+   Attribution: Photo by Alex Knight on Unsplash
+
+2. Photo URL: https://images.unsplash.com/photo-1531746790731-6c087fecd65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwyfHxBSSUyMGhlYWx0aGNhcmV8ZW58MHwwfHx8MTc1Mzk2NTQyMnww&ixlib=rb-4.1.0&q=80&w=1080
+   Description: closeup photo of white robot arm
+   Best for: Both Instagram and LinkedIn
+   Photographer: Possessed Photography
+   Attribution: Photo by Possessed Photography on Unsplash
+
+3. Photo URL: https://images.unsplash.com/photo-1606206873764-fd15e242df52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdGVjaG5vbG9neXxlbnwwfDB8fHwxNzUzOTY1NDIyfDA&ixlib=rb-4.1.0&q=80&w=1080
+   Description: black laptop computer on table
+   Best for: Both Instagram and LinkedIn
+   Photographer: Testalize.me
+   Attribution: Photo by Testalize.me on Unsplash
+
+TOPIC: Remote work policy
+----------------------------------------
+
+1. Photo URL: https://images.unsplash.com/photo-1622588907467-915ab508ae2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjB3b3JrJTIwb2ZmaWNlfGVufDB8MHx8fDE3NTM5NjU0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080
+   Description: black flat screen computer monitor on brown wooden desk
+   Best for: Both Instagram and LinkedIn
+   Photographer: Ben Garratt
+   Attribution: Photo by Ben Garratt on Unsplash
+
+2. Photo URL: https://images.unsplash.com/photo-1584722065001-ee7f49d903b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwyfHxyZW1vdGUlMjB3b3JrJTIwb2ZmaWNlfGVufDB8MHx8fDE3NTM5NjU0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080
+   Description: man in gray hoodie sitting on chair
+   Best for: Both Instagram and LinkedIn
+   Photographer: Claudio Schwarz
+   Attribution: Photo by Claudio Schwarz on Unsplash
+
+3. Photo URL: https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMGNvbmZlcmVuY2V8ZW58MHwwfHx8MTc1Mzk2NTQyNHww&ixlib=rb-4.1.0&q=80&w=1080
+   Description: macbook pro displaying group of people
+   Best for: Both Instagram and LinkedIn
+   Photographer: Chris Montgomery
+   Attribution: Photo by Chris Montgomery on Unsplash
+
+TOPIC: E-commerce Trends 2025
+----------------------------------------
+
+1. Photo URL: https://images.unsplash.com/photo-1742454582165-deab666a8763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBtb2JpbGV8ZW58MHwwfHx8MTc1Mzk2NTQyNHww&ixlib=rb-4.1.0&q=80&w=1080
+   Description: A phone shows a shopify app setup screen.
+   Best for: Both Instagram and LinkedIn
+   Photographer: Alan Chevereau
+   Attribution: Photo by Alan Chevereau on Unsplash
+
+2. Photo URL: https://images.unsplash.com/photo-1586880244543-0528a802be97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwyfHxlY29tbWVyY2UlMjBtb2JpbGV8ZW58MHwwfHx8MTc1Mzk2NTQyNHww&ixlib=rb-4.1.0&q=80&w=1080
+   Description: person holding space gray iphone 6
+   Best for: Both Instagram and LinkedIn
+   Photographer: Roberto Cortese
+   Attribution: Photo by Roberto Cortese on Unsplash
+
+3. Photo URL: https://images.unsplash.com/photo-1713646778050-2213b4140e6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODU1NjV8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfDB8fHwxNzUzOTY1NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080
+   Description: a miniature shopping cart sitting on top of a rug
+   Best for: Both Instagram and LinkedIn
+   Photographer: Hamed Taha
+   Attribution: Photo by Hamed Taha on Unsplash
+
