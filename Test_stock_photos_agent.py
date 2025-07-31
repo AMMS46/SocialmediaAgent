@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# Set up Gemini LLM (same as your main app)
+
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 llm = LLM(
@@ -37,7 +37,7 @@ def search_stock_photos(search_terms, count=3):
         params = {
             "query": search_terms,
             "per_page": count,
-            "orientation": "landscape"  # Good for social media
+            "orientation": "landscape"  
         }
         
         response = requests.get(url, headers=headers, params=params)
@@ -80,7 +80,7 @@ photo_search_agent = Agent(
     verbose=1
 )
 
-# Create photo search task that actually uses the API
+
 photo_search_task = Task(
     description="""
         IMPORTANT: You must use the actual Unsplash API to find real stock photos with real URLs.
@@ -120,7 +120,6 @@ photo_search_task = Task(
     agent=photo_search_agent
 )
 
-# Sample data (matching your sheet structure)
 sample_input = """
 Topics and Keywords for Photo Search:
 
@@ -157,7 +156,7 @@ def get_photos_for_all_topics():
         topic_results = {"topic": topic["name"], "photos": []}
         
         # Search for 2-3 photos per topic using different search terms
-        for i, search_term in enumerate(topic["search_terms"][:2]):  # Limit to 2 searches per topic
+        for i, search_term in enumerate(topic["search_terms"][:2]):  
             print(f"   Searching: {search_term}")
             photos = search_stock_photos(search_term, 2)
             
@@ -177,13 +176,12 @@ def get_photos_for_all_topics():
     
     return all_results
 
-# Get actual photos using the working API
+
 print("🎨 Fetching Real Stock Photos...")
 print("=" * 50)
 
 photo_results = get_photos_for_all_topics()
 
-# Format and display results
 print("\n📸 STOCK PHOTO RECOMMENDATIONS:")
 print("=" * 50)
 
