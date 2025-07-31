@@ -17,7 +17,7 @@ llm = LLM(
     max_tokens=1500,
 )
 
-# Function to read Google Sheets data (from your working app.py)
+#  read Google Sheets data 
 def read_google_sheets(sheet_url):
     try:
         # Convert Google Sheets URL to CSV export format
@@ -40,7 +40,7 @@ def read_google_sheets(sheet_url):
         for i, row in df.iterrows():
             topic = row.get('Topic', row.get('topic', row.get('TOPIC', '')))
             keywords = row.get('Keywords', row.get('keywords', row.get('KEYWORDS', '')))
-            if topic and keywords:  # Only add if both topic and keywords exist
+            if topic and keywords:  
                 result += f"{i+1}. Topic: {topic}\nKeywords: {keywords}\n\n"
         
         if result == "Topics and Keywords from Google Sheets:\n\n":
@@ -51,7 +51,7 @@ def read_google_sheets(sheet_url):
         print(f"Error reading sheet: {str(e)}")
         return None
 
-# Function to search stock photos using Unsplash API (from working stock_photos_agent.py)
+# Function to search stock photos using Unsplash API 
 def search_stock_photos(search_terms, count=3):
     try:
         UNSPLASH_ACCESS_KEY = os.getenv("UNSPLASH_ACCESS_KEY")
@@ -122,7 +122,7 @@ def extract_topics_from_sheets_data(sheets_data):
     
     return topics
 
-# Creating Social Media Content Creator Agent (from your working app.py)
+# Creating Social Media Content Creator Agent
 content_creator = Agent(
     llm=llm,
     role="""
@@ -186,7 +186,7 @@ caption_generation_task = Task(
     agent=content_creator
 )
 
-# Your Google Sheets URL
+#Google Sheets URL
 sheet_url = "https://docs.google.com/spreadsheets/d/1b4dYJaLp_LNS88C8bmv5eopk0zg6KYDPfEyflVZ2360/edit?usp=sharing"
 
 print("🔄 INTEGRATED SOCIAL MEDIA CONTENT SYSTEM")
@@ -251,19 +251,19 @@ for topic in topics:
 
 print("✅ Stock photo search completed!")
 
-# Step 5: Create comprehensive output file
+
 print("\n💾 Step 5: Creating comprehensive output...")
 
 final_output = "INTEGRATED SOCIAL MEDIA CONTENT & STOCK PHOTOS\n"
 final_output += "=" * 60 + "\n\n"
 final_output += f"Generated from Google Sheets: {sheet_url}\n\n"
 
-# Add caption results
+
 final_output += "📝 SOCIAL MEDIA CAPTIONS:\n"
 final_output += "-" * 30 + "\n"
 final_output += str(caption_result) + "\n\n"
 
-# Add photo results
+
 final_output += "📸 STOCK PHOTO RECOMMENDATIONS:\n"
 final_output += "-" * 35 + "\n\n"
 
@@ -281,7 +281,7 @@ for topic_data in all_photo_results:
     else:
         final_output += "   No photos found for this topic\n\n"
 
-# Write comprehensive output
+
 with open("integrated_social_media_content.txt", "w", encoding="utf-8") as f:
     f.write(final_output)
 
