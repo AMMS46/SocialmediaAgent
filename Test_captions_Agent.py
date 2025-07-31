@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Comment out OpenAI
+
 # from langchain_openai import ChatOpenAI
 # os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
@@ -17,7 +17,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=1500,
 )
 
-# Your actual Google Sheets data
+
 actual_data = """
 1. Topic: AI in health care
 Keywords: AI, healthcare
